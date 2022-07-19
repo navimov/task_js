@@ -35,7 +35,7 @@ function makeNegative(num) {
         function litres(time) {
             return Math.floor(time/2);
           }    
-        // Opposites Attract
+        // Opposites Attract variant 1
         function lovefunc(flower1, flower2){
             if ((flower1+flower2) % 2===1)  {
               return true;
@@ -43,3 +43,13 @@ function makeNegative(num) {
               return false;
             };
             }  
+        //    Opposites Attract variant 2
+            function lovefunc(flower1, flower2){
+                switch ((flower1+flower2) % 2===1)  {
+                case true:
+                    return true;
+                    default: 
+                    return false;
+                    break;
+                    };
+                }
