@@ -12,7 +12,7 @@ function stringToArray(string)  {
 
 //https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
     var min = function(list){
-        let lowestNum=0;
+        let lowestNum=list[0];
          for (let i=0; i<list.length; i++)  {
            if (lowestNum > list[i]) {
              lowestNum=list[i];
@@ -22,7 +22,7 @@ function stringToArray(string)  {
       }
       
       var max = function(list){
-        let bigestNum=0;
+        let bigestNum=list[0];
          for (let i=0; i<list.length; i++)  {
            if (bigestNum < list[i]) {
              bigestNum=list[i];
@@ -30,3 +30,16 @@ function stringToArray(string)  {
          };
           return bigestNum;
       }
+
+      //https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
+      function min(arr, toReturn) {
+        let lowestNum=arr[0];
+         let indexLowestNum=0;
+      for (let i=0; i<arr.length; i++)  {
+        if (lowestNum > arr[i]) {
+          lowestNum=arr[i];
+          indexLowestNum=i;
+        };
+      };
+  return toReturn==="value" ? lowestNum : indexLowestNum;
+}
