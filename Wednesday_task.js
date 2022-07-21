@@ -76,3 +76,40 @@ function warnTheSheep(queue) {
           };
         };
       }
+
+      // https://www.codewars.com/kata/53ee5429ba190077850011d4/train/javascript
+      function doubleInteger(i) {
+        // i will be an integer. Double it and return it.
+        return i*2;
+      }
+
+      //  https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097
+      function yearInCentury(year)  {
+        return Math.ceil(year/100);
+    };
+
+    // https://www.codewars.com/kata/523b66342d0c301ae400003b/train/javascript
+    function multiply(num1, num2)  {
+        return num1 * num2;
+        }
+
+        //  https://www.codewars.com/kata/58261acb22be6e2ed800003a/train/javascript
+        class Kata {
+            static getVolumeOfCuboid(length, width, height) {
+              return length * width * height;
+            }
+          }
+
+          //  https://www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript
+          function makeNegative(num) {
+            if (num>0)  {
+              return -num;
+            } else {
+              return num;
+            }
+            };
+
+            //  https://www.codewars.com/kata/55fab1ffda3e2e44f00000c6/train/javascript
+            function cockroachSpeed(s) {
+                return Math.floor( s * 100000 /3600 ); 
+              }
