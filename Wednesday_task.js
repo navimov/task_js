@@ -43,3 +43,11 @@ function stringToArray(string)  {
       };
   return toReturn==="value" ? lowestNum : indexLowestNum;
 }
+
+//https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
+function warnTheSheep(queue) {
+    let queueReverse = queue.reverse();
+   let wolfIndex = queue.indexOf("wolf");
+   return wolfIndex > 0 ? "Oi! Sheep number " + wolfIndex + "! You are about to be eaten by a wolf!" : 
+   "Pls go away and stop eating my sheep";
+       };
