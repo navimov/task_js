@@ -51,3 +51,13 @@ function warnTheSheep(queue) {
    return wolfIndex > 0 ? "Oi! Sheep number " + wolfIndex + "! You are about to be eaten by a wolf!" : 
    "Pls go away and stop eating my sheep";
        };
+
+       // https://www.codewars.com/kata/beginner-lost-without-a-map
+       let arr=[1, 2, 3, 5];
+       2	let resultArr=[];
+       3	            function doubleNum (arr)      {
+       4	                for (let i = 0; i < arr.length; i++)  {
+       5	                resultArr[i] = arr[i] * 2;
+       6	                };
+       7	                return resultArr;
+       8	            };
