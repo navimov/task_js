@@ -61,3 +61,18 @@ function warnTheSheep(queue) {
        6	                };
        7	                return resultArr;
        8	            };
+
+       // https://www.codewars.com/kata/find-the-first-non-consecutive-number/train/javascript
+       function firstNonConsecutive (arr) {
+        let checkNum = arr[0];
+        for (let i = 1; i < arr.length; i++)  {
+          if ( Math.abs( arr[i] ) - Math.abs( checkNum ) != 1 )  {
+            return arr[i];
+          } else  {
+            checkNum=arr[i];
+            if  (i ===arr.length) {
+              return null;
+            };
+          };
+        };
+      }
