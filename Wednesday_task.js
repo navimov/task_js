@@ -54,14 +54,14 @@ function warnTheSheep(queue) {
 
 // https://www.codewars.com/kata/beginner-lost-without-a-map
 let arr = [1, 2, 3, 5];
-2	let resultArr = [];
-3	            function doubleNum(arr) {
-    4	                for (let i = 0; i < arr.length; i++) {
-        5	                resultArr[i] = arr[i] * 2;
-        6
+	let resultArr = [];
+	            function doubleNum(arr) {
+    	                for (let i = 0; i < arr.length; i++) {
+        	                resultArr[i] = arr[i] * 2;
+        
     };
-    7	                return resultArr;
-    8
+    	                return resultArr;
+    
 };
 
 // https://www.codewars.com/kata/find-the-first-non-consecutive-number/train/javascript
