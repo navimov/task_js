@@ -4,8 +4,8 @@ class SmallestIntegerFinder {
   findSmallestInt(args) {
     return Math.min.apply(null, args);
   };
-
 }
+
 // TASK_#2
 // https://www.codewars.com/kata/geometry-basics-circle-circumference-in-2d/train/javascript
 function circleCircumference(circle) {
